@@ -41,8 +41,6 @@ Can you generate release notes from these commit messages? Discard "Merge Pull R
 {{ $json.commits }}
 
 Each commit message should be on a new line using \\n\\n and start with a hypen. Don't answer anything else then the generated text.
-
-{  "message": "the generated markdown commit message"}
 ```
 
 # Send message and wait for response
